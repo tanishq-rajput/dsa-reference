@@ -1,0 +1,5 @@
+- `unordered_map<int,int>` stores each number and its frequency; `mp[a[i]]++` counts occurrences.
+- `const vector<int>&` avoids copying (`&`) and prevents modification (`const`); `const auto&` avoids copying map entries.
+- `mp.at(num)` accesses an existing key without inserting a missing one, unlike `mp[num]`.
+- TC - O(n) average
+- SC - O(k)
