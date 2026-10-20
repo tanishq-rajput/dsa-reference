@@ -11,4 +11,4 @@
   - Best: O(n) | Worst: O(n²)
 
 - **Merge Sort:** Divides the array into halves, sorts them recursively, and merges the sorted halves.
-  - Best: O(n log n) | Worst: O(n log n)
+  - Best: O(n log n) | Worst: O(n log n)  ||  base of log is 2 because the algo divided the array in 2 parts
