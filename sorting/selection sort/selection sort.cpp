@@ -30,10 +30,5 @@ int main() {
 	for (int i = 0; i < n; i ++ ) {
 		cout << ar[i] << " ";
 	}
-
-	bubble_sort(ar, n);
-	//printing array again
-	for (int i = 0; i < n; i++) {
-		cout << ar[i] << " ";
 	}
 }
