@@ -1,14 +1,23 @@
-
 # Sorting Algorithms
 
 - **Selection Sort:** Repeatedly selects the minimum element and places it in its correct position.
-  - Best: O(n²) | Worst: O(n²)
+  - TC: Best O(n²) | Worst O(n²)
+  - SC: O(1)
 
 - **Bubble Sort:** Repeatedly swaps adjacent elements if they are in the wrong order.
-  - Best: O(n²) | Worst: O(n²)
+  - TC: Best O(n²) | Worst O(n²)
+  - SC: O(1)
 
 - **Insertion Sort:** Inserts each element into its correct position in the sorted portion.
-  - Best: O(n) | Worst: O(n²)
+  - TC: Best O(n) | Worst O(n²)
+  - SC: O(1)
 
 - **Merge Sort:** Divides the array into halves, sorts them recursively, and merges the sorted halves.
-  - Best: O(n log n) | Worst: O(n log n)  ||  base of log is 2 because the algo divided the array in 2 parts
+  - TC: Best O(n log₂ n) | Worst O(n log₂ n)
+  - SC: O(n)
+  - Base of log is 2 because the algorithm divides the array into 2 parts.
+
+- **Quick Sort:** Selects a pivot, partitions the array around it, and recursively sorts the elements on either side.
+  - TC: Best/Average O(n log₂ n) | Worst O(n²)
+  - SC: Average O(log n) | Worst O(n) (recursion stack)
+  - Implementation note: Check index boundaries before accessing array elements in the partition loops (`i <= high - 1 && arr[i] <= pivot`). This prevents out-of-bounds access through short-circuit evaluation; it is primarily a safety measure, not a meaningful performance optimization.
