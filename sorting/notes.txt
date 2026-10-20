@@ -1,0 +1,14 @@
+
+# Sorting Algorithms
+
+- **Selection Sort:** Repeatedly selects the minimum element and places it in its correct position.
+  - Best: O(n²) | Worst: O(n²)
+
+- **Bubble Sort:** Repeatedly swaps adjacent elements if they are in the wrong order.
+  - Best: O(n²) | Worst: O(n²)
+
+- **Insertion Sort:** Inserts each element into its correct position in the sorted portion.
+  - Best: O(n) | Worst: O(n²)
+
+- **Merge Sort:** Divides the array into halves, sorts them recursively, and merges the sorted halves.
+  - Best: O(n log n) | Worst: O(n log n)
