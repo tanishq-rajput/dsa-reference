@@ -1,0 +1,9 @@
+
+Remove Duplicates from Sorted Array
+
+- Two pointers: i tracks the last unique element; j scans the array.
+- Overwrite duplicates with the next unique element.
+- Return i + 1 (number of unique elements).
+
+TC: O(n)
+SC: O(1) auxiliary space
