@@ -1,0 +1,6 @@
+# Zero Shift
+
+- **Technique:** Two pointers; in-place swapping.
+- **Logic:** Find the first zero, then scan forward and swap each non-zero element with the next available zero position.
+- **TC:** O(n)
+- **SC:** O(1) auxiliary space.
