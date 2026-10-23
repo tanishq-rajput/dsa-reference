@@ -1,0 +1,7 @@
+# Array Rotation
+
+- **rotate:** Store the first element, shift remaining elements left, place the stored element at the end.
+- **krotate:** Store the first `k` elements, shift remaining elements left, place saved elements at the end.
+- **rerotate:** Reverse the first `k` elements, reverse the remaining elements, then reverse the entire array.
+- **TC:** O(n) for all three.
+- **SC:** O(1) for `rotate`; O(n) for `krotate` and `rerotate` due to pass-by-value copies and temporary storage.
