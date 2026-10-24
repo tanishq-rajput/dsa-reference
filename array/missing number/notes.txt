@@ -1,0 +1,14 @@
+# Missing Number
+
+### 1. XOR Approach
+- **Approach:** XOR all array elements and numbers from `1` to `N`. Matching numbers cancel out, leaving the missing number.
+- **TC:** O(N)
+- **SC:** O(1) auxiliary space.
+
+### 2. Sum Approach 
+- **Approach:** Calculate the expected sum `N * (N + 1) / 2` and subtract the sum of array elements to get the missing number.
+- **TC:** O(N)
+- **SC:** O(1) auxiliary space.
+- **Note:** Sum approach may cause integer overflow for large `N`; XOR avoids this sum overflow risk.
+
+**Condition:** Array contains distinct numbers from `1` to `N`, with exactly one number missing (array size = N − 1).
