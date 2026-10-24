@@ -1,0 +1,9 @@
+# Union of Sorted Arrays
+- **Approach:** Two pointers; compare elements and add the smaller one. If equal, add once and move both pointers. Skip duplicates using `u.back() != value` (after checking `u.empty()`).
+- **TC:** O(n + m)
+- **SC:** O(n + m) auxiliary/output space for the result.
+
+# Intersection of Sorted Arrays
+- **Approach:** Two pointers; if `a[i] < b[j]`, increment `i`; if `a[i] > b[j]`, increment `j`; otherwise, add the common element and increment both pointers.
+- **TC:** O(n + m)
+- **SC:** O(min(n, m)) auxiliary/output space for the result in the worst case.
